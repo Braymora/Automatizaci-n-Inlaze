@@ -1,18 +1,19 @@
+# Revisiones de código
+
 ### Instrucciones para ejecutar los scripts de automatización
 
 - Instalar Python, puede ser descargado desde [python.org](https://www.python.org/downloads/)
 - En Visual Studio Code abrir una terminal para instalar selenium
 
-bash
+```bash
 pip install selenium
-
+```
 
 - Descargar el WebDriver del navegador, en este caso Chrome, extrae el archivo descargado y colocar el ejecutable de `chromedriver.exe` en una carpeta de tu preferencia (por ejemplo, `C:\chromedriver`).
 - Escribir el código de automatización, en este caso se hizo en el editor Visual Studio Code.
 - Guardar el archivo con extensión .py, en este caso registro.py
     
-    registro.py
-  
+    ```python
     from selenium import webdriver
     from selenium.webdriver.common.keys import Keys
     from selenium.webdriver.common.by import By
@@ -42,11 +43,11 @@ pip install selenium
     time.sleep(5)
     
     driver.quit()
-    
+    ```
     
 - Login.py
     
-    
+    ```python
     from selenium import webdriver
     from selenium.webdriver.common.keys import Keys
     from selenium.webdriver.common.by import By
@@ -77,14 +78,14 @@ pip install selenium
 - Abrir una terminal y navegar hasta la carpeta donde se guardo el script.
 - En este caso
     
-    bash
+    ```bash
     cd C:\Users\braya\OneDrive\Escritorio\Automatización Inlaze
-    
+    ```
     
 - Ejecutar los scripts utilizando python.
     
-    bash
+    ```bash
     python automation_script.py
-    
+    ```
     
 - Ver el resultado.
